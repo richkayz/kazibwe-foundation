@@ -591,6 +591,27 @@ footer {
     font-weight: bold;
 }
 
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #eeb900;
+}
+
 .footer-bottom {
     border-top: 1px solid #ffffff55;
 
@@ -609,6 +630,85 @@ footer {
     color: #eeb900;
 
     font-weight: bold;
+}
+
+.page-content {
+    width: 1200px;
+    max-width: 100%;
+    margin: 30px auto 40px;
+    background-color: white;
+    padding: 50px 30px;
+    min-height: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.page-content h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #183b5b;
+    font-size: 36px;
+}
+
+.page-content p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.enrollment-form {
+    max-width: 900px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #183b5b;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #d5dce3;
+    border-radius: 6px;
+    font: inherit;
+    background-color: #f9fbfd;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #eeb900;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(238, 185, 0, 0.2);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.submit-button {
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    font: inherit;
 }
 
 
@@ -722,5 +822,13 @@ footer {
         flex-direction: column;
 
         text-align: center;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .submit-button {
+        width: 100%;
     }
 }
