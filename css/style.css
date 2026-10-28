@@ -1897,3 +1897,101 @@ ACADEMIC PROGRAMME DETAILS
         width: 100%;
     }
 }
+
+
+/* Thank You Page */
+.thank-you-page {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px 20px;
+}
+
+.thank-you-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 55px 35px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(24, 59, 91, 0.10);
+    border-top: 5px solid #eeb900;
+}
+
+.thank-you-check {
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+    background: #e8f5e9;
+    color: #247a3c;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.thank-you-card h1 {
+    color: #183b5b;
+    margin-bottom: 18px;
+}
+
+.thank-you-card p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.thank-you-card .thank-you-lead {
+    color: #183b5b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.thank-you-slogan {
+    color: #183b5b !important;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.thank-you-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.thank-you-secondary-button {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 2px solid #183b5b;
+    border-radius: 5px;
+    color: #183b5b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.thank-you-secondary-button:hover {
+    background: #183b5b;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .thank-you-page {
+        margin: 25px auto;
+        padding: 20px 15px;
+    }
+
+    .thank-you-card {
+        padding: 35px 20px;
+    }
+
+    .thank-you-card h1 {
+        font-size: 27px;
+    }
+
+    .thank-you-actions {
+        flex-direction: column;
+    }
+
+    .thank-you-actions a {
+        text-align: center;
+    }
+}
